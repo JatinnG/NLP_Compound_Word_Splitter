@@ -13,7 +13,7 @@ In this project, we will build a distributional semantics based compound word sp
 
 
 
-**Objectives:** In this project, we aim to build a heuristic based compound word splitting tool which can be used as is in any standard NLP pre-processing pipeline. This step can be plugged-in before generating the word embeddings and allows the model to get better lexical coverage of the corpus. I have tried to wrap up everything in a single Jupyter Notebook. The results are stored in split_results.txt file and can be compared against gold standard splits for assessing the quality.
+**Objectives:** In this project, we aim to build a heuristic based compound word splitting tool which can be used as is in any standard NLP pre-processing pipeline. This module can be plugged-in before generating the word embeddings and allows the model to get better lexical coverage of the corpus. This can prove to be a crucial step for word sense disambiguation within the text. I have tried to wrap up everything in a single Jupyter Notebook. The results are stored in split_results.txt file and can be compared against gold standard splits for assessing the quality.
 
 ---
 
