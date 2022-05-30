@@ -25,7 +25,7 @@ DeReKo is a popular word dictionary widely used as a reference for German langua
 
 ## Methodology - that's how we do it!
 
-The work of this project is inspired from empirical methods for compound word splitting proposed by Koehn et al., 2013. A single "lemma" may appear in different inflecled forms within its compound [For e.g. like, like(d), like(s)], first we generate all the possible splits for a given compound and then select the best one based upon a scoring metric. The lexical information from the corpus (POS tag, Frequency) is used to select the best split out of feasible split options. We have also included some basic filters and methods to provide more robustness to the method. Refer to code comments for more details.
+The work of this project is inspired from empirical methods for compound word splitting proposed by Koehn et al., 2013. A single "lemma" may appear in different inflecled forms within its compound [For e.g. like, like(d), like(s)], first we generate all the possible splits for a given compound and then select the best one based upon a scoring metric. The lexical information from the corpus (POS tag, Frequency) is used to select the best split out of feasible split options. We have also included some basic filters and methods to provide more robustness to the method. Refer to code comments for more details. For evaluating the results, we compare the accuracy of generated splits against a gold standard labelled by linguistic experts.
 
 --- 
 
